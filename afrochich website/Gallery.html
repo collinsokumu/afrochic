@@ -1,0 +1,653 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="afrochic threads logo.png" type="/x-icon">
+        <title>Ankara</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            ul {
+                font-family: Arial, Helvetica, sans-serif;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(31, 30, 30);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .nav-links, .social-links {
+                display: flex;
+                align-items: center;
+            }
+            .nav-links li, .social-links li {
+                float: none; /* Remove float */
+            }
+            .nav-links li a, .social-links li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .nav-links li a:hover, .social-links li a:hover {
+                background-color: rgba(247, 10, 10, 0.842);
+            }
+            #logo-header {
+                height: 50px; /* Adjust height as needed */
+            }
+            #logo-footer {
+                display: block;
+                margin: 10px auto;
+                height: 50px; /* Adjust height as needed */
+            }
+            .gallery-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+            }
+            .gallery-item {
+                margin: 10px;
+                text-align: center;
+                color: white;
+            }
+            .gallery-item img {
+                height: 300px;
+                transition: transform 0.3s ease, filter 0.3s ease;
+            }
+            .gallery-item img:hover {
+                transform: scale(1.05);
+                filter: brightness(1.2);
+            }
+            .gallery-item p {
+                margin: 5px 0;
+            }
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20pt;
+                font-weight: lighter;
+                color: white;
+                text-align: center;
+            }
+            #cont {
+                padding: 125px;
+            }
+            footer {
+                background-color: rgb(31, 30, 30);
+                width: 100%;
+                padding: 10px 0; /* Adjust padding as needed */
+                text-align: center;
+                color: white;
+                position: relative; /* Change position to relative */
+                clear: both; /* Clear floats */
+            }
+            
+            /* Adjust position of logo */
+            footer img {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                height: 50px;
+            }
+            footer .social-icons {
+                margin-top: 10px;
+            }
+            footer .social-icons a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 24px;
+            }
+            footer .social-icons a:hover {
+                color: #eb4646;
+            }
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0; /* Ensure there's no margin around the text */
+            }
+            .button {
+                font-family: Arial, Helvetica, sans-serif;
+                display: inline-block;
+                background-color: #ee1010;
+                color: white;
+                padding: 15px 20px;
+                text-align: center;
+                text-decoration: none;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            
+            .button:hover {
+                background-color: #eb4646;
+            }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .social-icons a:hover {
+            color: rgba(247, 10, 10, 0.842);
+        }
+        .social-links {
+            display: flex;
+            gap: 10px;
+        }
+        .social-links li {
+            list-style: none;
+        }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <section>
+            <ul>
+                <div class="nav-links">
+                    <a href="index.html">
+                        <img id="logo-header" src="afrochic threads logo.png" alt="AfroChic Threads Logo">
+                    </a>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </div>
+                
+                <div class="social-links">
+                    <li><a href="mailto:collinsokumu75@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="https://wa.me/+254713627932"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@Ankara"><i class="fab fa-tiktok"></i></a></li>
+                    <li><a href="https://www.facebook.com/Ankara"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/Ankara"><i class="fab fa-instagram"></i></a></li>
+                </div>
+            </ul>
+        </section>
+        <section>
+            <br>
+            <h2>G A L L E R Y</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <a href="img/1.jpeg"><img src="img/1.jpeg" alt=" 1"></a>
+                    <p> Ankara 1</p>
+                    <p>7,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><Address>: Nairobi</Address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/2.jpeg"><img src="img/2.jpeg" alt=" 2"></a>
+                    <p> Ankara 2</p>
+                    <p>9,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/3.jpeg"><img src="img/3.jpeg" alt=" 3"></a>
+                    <p> Ankara 3</p>
+                    <p>7,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/4.jpeg"><img src="img/4.jpeg" alt=" 4"></a>
+                    <p> Ankara 4</p>
+                    <p>14,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/5.jpeg"><img src="img/5.jpeg" alt=" 5"></a>
+                    <p> Ankara 5</p>
+                    <p>30,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/6.jpeg"><img src="img/6.jpeg" alt=" 6"></a>
+                    <p> Ankara 6</p>
+                    <p>9,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/7.jpeg"><img src="img/7.jpeg" alt=" 7"></a>
+                    <p> Ankara 7</p>
+                    <p>5,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/8.jpeg"><img src="img/8.jpeg" alt=" 8"></a>
+                    <p> Ankara 8</p>
+                    <p>14,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/9.jpeg"><img src="img/9.jpeg" alt=" 9"></a>
+                    <p> Ankara 9</p>
+                    <p>15,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/10.jpeg"><img src="img/10.jpeg" alt=" 10"></a>
+                    <p> Ankara 10</p>
+                    <p>30,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/11.jpeg"><img src="img/11.jpeg" alt=" 11"></a>
+                    <p> Ankara 11</p>
+                    <p>27,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/12.jpeg"><img src="img/12.jpeg" alt=" 12"></a>
+                    <p> Ankara 12</p>
+                    <p>25,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/ 13."><img src="img/13.jpeg" alt=" 13"></a>
+                    <p> Ankara 13</p>
+                    <p>27,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/14.jpeg"><img src="img/14.jpeg" alt=" 14"></a>
+                    <p> Ankara 14</p>
+                    <p>9,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/15.jpeg"><img src="img/15.jpeg" alt=" 15"></a>
+                    <p> Ankara 15</p>
+                    <p>6,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/16.jpeg"><img src="img/16.jpeg" alt=" 16"></a>
+                    <p> Ankara 16</p>
+                    <p>15,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/17.jpeg"><img src="img/17.jpeg" alt=" 17"></a>
+                    <p> Ankara 17</p>
+                    <p>27,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/18.jpeg"><img src="img/18.jpeg" alt=" 18"></a>
+                    <p> Ankara 18</p>
+                    <p>20,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/19.jpeg"><img src="img/19.jpeg" alt=" 19"></a>
+                    <p> Ankara 19</p>
+                    <p>35,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/20.jpeg"><img src="img/20.jpeg" alt=" 20"></a>
+                    <p> Ankara 20</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/21.jpeg"><img src="img/21.jpeg" alt=" 21"></a>
+                    <p> Ankara 21</p>
+                    <p>15,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/22.jpeg"><img src="img/22.jpeg" alt=" 22"></a>
+                    <p> Ankara 22</p>
+                    <p>20,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/23.jpeg"><img src="img/23.jpeg" alt=" 23"></a>
+                    <p> Ankara 23</p>
+                    <p>27,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/24.jpeg"><img src="img/24.jpeg" alt=" 24"></a>
+                    <p> Ankara 24</p>
+                    <p>18,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/25.jpeg"><img src="img/25.jpeg" alt=" 25"></a>
+                    <p> Ankara 25</p>
+                    <p>5,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/26.jpeg"><img src="img/26.jpeg" alt=" 26"></a>
+                    <p> Ankara 26</p>
+                    <p>27,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/27.jpeg"><img src="img/27.jpeg" alt=" 27"></a>
+                    <p> Ankara 27,000 Ksh</p>
+                    <p>27</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/28.jpeg"><img src="img/28.jpeg" alt=" 28"></a>
+                    <p> Ankara 28</p>
+                    <p>55,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/29.jpeg"><img src="img/29.jpeg" alt=" 29"></a>
+                    <p> Ankara 29</p>
+                    <p>48,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/30.jpeg"><img src="img/30.jpeg" alt=" 30"></a>
+                    <p> Ankara 30</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/31.jpeg"><img src="img/31.jpeg" alt=" 31"></a>
+                    <p> Ankara 31</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/32.jpeg"><img src="img/32.jpeg" alt=" 32"></a>
+                    <p> Ankara 32</p>
+                    <p>13,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/33.jpeg"><img src="img/33.jpeg" alt=" 33"></a>
+                    <p> Ankara 33</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/34.jpeg"><img src="img/34.jpeg" alt=" 34"></a>
+                    <p> Ankara 34</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/35.jpeg"><img src="img/35.jpeg" alt=" 35"></a>
+                    <p> Ankara 35</p>
+                    <p>5,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/36.jpeg"><img src="img/36.jpeg" alt=" 36"></a>
+                    <p> Ankara 36</p>
+                    <p>30,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/37.jpeg"><img src="img/37.jpeg" alt=" 37"></a>
+                    <p> Ankara 37</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/38.jpeg"><img src="img/38.jpeg" alt=" 38"></a>
+                    <p> Ankara 38</p>
+                    <p>14,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/39.jpeg"><img src="img/39.jpeg" alt=" 39"></a>
+                    <p> Ankara 39</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/40.jpeg"><img src="img/40.jpeg" alt=" 40"></a>
+                    <p> Ankara 40</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/41.jpeg"><img src="img/41.jpeg" alt=" 41"></a>
+                    <p> Ankara 41</p>
+                    <p>30,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/42.jpeg"><img src="img/42.jpeg" alt=" 42"></a>
+                    <p> Ankara 42</p>
+                    <p>8,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/43.jpeg"><img src="img/43.jpeg" alt=" 43"></a>
+                    <p> Ankara 43</p>
+                    <p>22,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/44.jpeg"><img src="img/44.jpeg" alt=" 44"></a>
+                    <p> Ankara 44</p>
+                    <p>10,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                <div class="gallery-item">
+                    <a href="img/45.jpeg"><img src="img/45.jpeg" alt=" 45"></a>
+                    <p> Ankara 45</p>
+                    <p>13,000 Ksh</p>
+                    <p><a href="tel:+254713627932">Customer Care</a></p>
+                    <p><address>: Nairobi</address></p>
+                    <a href="contact-us.html" class="button">Book your Order</a>
+                </div>
+                    <div class="gallery-item">
+                        <a href="img/46.jpeg"><img src="img/46.jpeg" alt="46"></a>
+                        <p>Ankara 46</p>
+                        <p>15,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/47.jpeg"><img src="img/47.jpeg" alt="47"></a>
+                        <p>Ankara 47</p>
+                        <p>18,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/48.jpeg"><img src="img/48.jpeg" alt="48"></a>
+                        <p>Ankara 48</p>
+                        <p>10,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/49.jpeg"><img src="img/49.jpeg" alt="49"></a>
+                        <p>Ankara 49</p>
+                        <p>20,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/50.jpeg"><img src="img/50.jpeg" alt="50"></a>
+                        <p>Ankara 50</p>
+                        <p>7,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/51.jpeg"><img src="img/51.jpeg" alt="51"></a>
+                        <p>Ankara 51</p>
+                        <p>10,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/52.jpeg"><img src="img/52.jpeg" alt="52"></a>
+                        <p>Ankara 52</p>
+                        <p>10,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/53.jpeg"><img src="img/53.jpeg" alt="53"></a>
+                        <p>Ankara 53</p>
+                        <p>40,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/54.jpeg"><img src="img/54.jpeg" alt="54"></a>
+                        <p>Ankara 54</p>
+                        <p>18,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/55.jpeg"><img src="img/55.jpeg" alt="55"></a>
+                        <p>Ankara 55</p>
+                        <p>5,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/56.jpeg"><img src="img/56.jpeg" alt="56"></a>
+                        <p>Ankara 56</p>
+                        <p>55,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/57.jpeg"><img src="img/57.jpeg" alt="57"></a>
+                        <p>Ankara 57</p>
+                        <p>5,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="img/58.jpeg"><img src="img/58.jpeg" alt="58"></a>
+                        <p>Ankara 58</p>
+                        <p>12,000 Ksh</p>
+                        <p><a href="tel:+254713627932">Customer Care</a></p>
+                        <p><address>Nairobi</address></p>
+                        <a href="contact-us.html" class="button">Book your Order</a>
+                    </div>
+                </div>
+                
+                <!-- Add more gallery items as needed -->
+            </div>
+        </section>
+        <footer>
+            <img id="logo-footer" src="afrochic threads logo.png" alt="afrochik">
+            <p>&copy; 2024 AfroChic Threads.</p>
+            <div class="social-icons"> 
+                <a href="tel:+254713627932"><i class="fas fa-phone"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:collinsokumu75@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/+254713627932"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@Ankara"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/Ankara"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/Ankara"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>

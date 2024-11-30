@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="afrochic threads logo.png" type="image/x-icon">
+    <title>Ankara</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(31, 30, 30);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-links, .social-links {
+            display: flex;
+            align-items: center;
+        }
+        .nav-links li, .social-links li {
+            float: none; /* Remove float */
+        }
+        .nav-links li a, .social-links li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav-links li a:hover, .social-links li a:hover {
+            background-color: rgba(247, 10, 10, 0.842);
+        }
+        #logo-header {
+            height: 50px; /* Adjust height as needed */
+        }
+        #logo-footer {
+            display: block;
+            margin: 10px auto;
+            height: 50px; /* Adjust height as needed */
+        }
+        h2 {
+            font-size: 20pt;
+            font-weight: lighter;
+            color: white;
+            text-align: center;
+        }
+        footer {
+            background-color: rgb(31, 30, 30);
+            bottom: 0;
+            width: 100%;
+            padding: 10px 0;
+            position: fixed;
+            text-align: center;
+            color: white;
+        }
+        footer img {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            height: 50px; /* Adjust height as needed */
+        }
+        p {
+            margin: 0; /* Ensure there's no margin around the text */
+        }
+        .contact-section {
+            background-color: #0a0909;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .contact-form textarea {
+            height: 150px;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #f70707;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #e07373;
+        }
+        span {
+            color: #f70707;
+        }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .social-icons a:hover {
+            color: rgba(247, 10, 10, 0.842);
+        }
+        .social-links {
+            display: flex;
+            gap: 10px;
+        }
+        .social-links li {
+            list-style: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section>
+        <ul>
+            <div class="nav-links">
+                <a href="index.html">
+                    <img id="logo-header" src="afrochic threads logo.png" alt="AfroChic Threads Logo">
+                </a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                
+            </div>
+            
+            <div class="social-links">
+                <li><a href="mailto:collinsokumu75@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://wa.me/+254713627932"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://www.tiktok.com/@Ankara"><i class="fab fa-tiktok"></i></a></li>
+                <li><a href="https://www.facebook.com/Ankara"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/Ankara"><i class="fab fa-instagram"></i></a></li>
+            </div>
+        </ul>
+    </section>
+    <section class="contact-section" id="contact-us">
+        <h2>C O N T A C T - <span>U S</span></h2>
+        <br>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mwkggvek" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <img id="logo-footer" src="afrochic threads logo.png" alt="afrochic">
+        <p>&copy; 2024 AfroChic Threads.</p>
+        <div class="social-icons"> 
+            <a href="tel:+254713627932"><i class="fas fa-phone"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:collinsokumu75@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://wa.me/+254713627932"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.tiktok.com/@Ankara"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.facebook.com/Ankara"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/Ankara"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+</body>
+</html>
